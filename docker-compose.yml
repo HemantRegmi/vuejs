@@ -1,0 +1,6 @@
+services:
+  vue-app:
+    build: .
+    ports:
+      - "8888:80"
+    container_name: vue-docker-app
