@@ -30,7 +30,7 @@ This command will:
 2.  Start an Nginx server to serve the static files.
 3.  Expose the application on port **8888** (as configured in `docker-compose.yml`).
 
-![Docker Status](screenshots/docker_status.png)
+![App Preview](screenshots/app_preview.png)
 
 ### 2. Access the Application
 
