@@ -1,10 +1,4 @@
-# Vue.js Dockerized Application
-
-This is a Vue 3 application built with Vite and containerized using Docker for easy deployment and development.
-
-![App Preview](screenshots/app_preview.png)
-
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -13,7 +7,7 @@ This is a Vue 3 application built with Vite and containerized using Docker for e
 
 ---
 
-## 🐳 Docker Setup (Recommended)
+## Docker Setup (Recommended)
 
 This project includes a fully configured Docker setup with Nginx serving the production build.
 
@@ -51,7 +45,7 @@ docker-compose down
 
 ---
 
-## 💻 Local Developement
+## Local Developement
 
 If you prefer to run the application locally without Docker (e.g., for hot-reload during active development):
 
@@ -81,7 +75,7 @@ The output files will be in the `dist/` directory.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 - **`Dockerfile`**: Multi-stage Docker configuration (Build + Nginx).
 - **`docker-compose.yml`**: Orchestration file defining the service and ports.
