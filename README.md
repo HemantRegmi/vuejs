@@ -7,7 +7,7 @@
 
 ---
 
-## Docker Setup (Recommended)
+## Docker Setup
 
 This project includes a fully configured Docker setup with Nginx serving the production build.
 
@@ -45,35 +45,7 @@ docker-compose down
 
 ---
 
-## Local Developement
 
-If you prefer to run the application locally without Docker (e.g., for hot-reload during active development):
-
-### 1. Install Dependencies
-
-```bash
-npm install
-```
-
-### 2. Run Development Server
-
-```bash
-npm run dev
-```
-
-The application will usually be available at `http://localhost:5173` (Vite's default port).
-
-### 3. Build for Production
-
-To create a production build locally:
-
-```bash
-npm run build
-```
-
-The output files will be in the `dist/` directory.
-
----
 
 ## Project Structure
 
